@@ -35,8 +35,10 @@ return { -- Collection of various small independent plugins/modules
     --  Check out: https://github.com/echasnovski/mini.nvim
     -- require('mini.animate').setup()
     require('mini.hipatterns').setup()
+    require('mini.icons').setup()
     require('mini.indentscope').setup()
     require('mini.pairs').setup()
+    require('mini.sessions').setup()
   end,
 }
 -- vim: ts=2 sts=2 sw=2 et
